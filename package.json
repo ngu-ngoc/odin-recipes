@@ -1,0 +1,29 @@
+{
+  "name": "odin-recipes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "vite build",
+    "deploy": "vercel --prod",
+    "vercel-login": "vercel login",
+    "dev": "vite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngu-ngoc/odin-recipes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ngu-ngoc/odin-recipes/issues"
+  },
+  "homepage": "https://github.com/ngu-ngoc/odin-recipes#readme",
+  "dependencies": {
+    "vercel": "^59.10.0",
+    "vite": "^8.2.2"
+  }
+}
